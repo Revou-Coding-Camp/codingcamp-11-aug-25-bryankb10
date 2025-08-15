@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="flex items-center justify-between w-full h-[5.5vw] bg-white border-b-2 border-black p-[1vw]">
+        <div class="bg-white rounded-full h-[4vw] w-[4vw] mainLogo"></div>
+        <div class="flex justify-end items-center text-center">
+            <ul class="flex">
+                <li><a href="#homePage" class="inline-block list-none mx-[1vw] px-[1vw] py-[0.5vw] box-border rounded-[30px] transition-colors duration-300 hover:bg-blue-500 hover:text-white cursor-pointer">Home</a></li>
+                <li><a href="#profilePage" class="inline-block list-none mx-[1vw] px-[1vw] py-[0.5vw] box-border rounded-[30px] transition-colors duration-300 hover:bg-blue-500 hover:text-white cursor-pointer">Our Profile</a></li>
+                <li><a href="#portofolioPage" class="inline-block list-none mx-[1vw] px-[1vw] py-[0.5vw] box-border rounded-[30px] transition-colors duration-300 hover:bg-blue-500 hover:text-white cursor-pointer">Portfolio</a></li>
+                <li><a href="#messagePage" class="inline-block list-none mx-[1vw] px-[1vw] py-[0.5vw] box-border rounded-[30px] transition-colors duration-300 hover:bg-blue-500 hover:text-white cursor-pointer">Message Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <!--Home Page-->
+        <section id="homePage" class="my-[1vw] mx-auto p-[1vw] w-[50vw] h-[5vw] rounded-[20px] bg-white box-border flex justify-center items-center">
+            <h2 class="flex justify-center items-center text-[2vw]">Welcome to Bryan's Portofolio, <span id="user-greeting" class="ml-2"> User</span></h2>
+        </section>
+        <section id="profilePage" class="bg-white h-[10vw] w-[full] bannerLogo"></section>
+        <!--Profile Page-->
+        <section id="portofolioPage" class="my-[1vw] mx-auto p-[1vw] w-[90vw] h-[90vw] rounded-[20px] bg-white box-border flex justify-center items-center"></section>
+        <!--Portofolio Page-->
+        <section id="messagePage" class="my-[1vw] mx-auto p-[1vw] w-[90vw] h-[90vw] rounded-[20px] bg-white box-border flex justify-center items-center"></section>
+        <!--Message Us Page-->
+        <section class="my-[1vw] mx-auto p-[1vw] w-[90vw] h-[90vw] rounded-[20px] bg-white box-border flex justify-center items-center"></section>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
