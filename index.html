@@ -14,7 +14,7 @@
             <ul class="flex">
                 <li><a href="#homePage" class="inline-block list-none mx-[1vw] px-[1vw] py-[0.5vw] box-border rounded-[30px] transition-colors duration-300 hover:bg-blue-500 hover:text-white cursor-pointer">Home</a></li>
                 <li><a href="#profilePage" class="inline-block list-none mx-[1vw] px-[1vw] py-[0.5vw] box-border rounded-[30px] transition-colors duration-300 hover:bg-blue-500 hover:text-white cursor-pointer">Our Profile</a></li>
-                <li><a href="#portofolioPage" class="inline-block list-none mx-[1vw] px-[1vw] py-[0.5vw] box-border rounded-[30px] transition-colors duration-300 hover:bg-blue-500 hover:text-white cursor-pointer">Portfolio</a></li>
+                <li><a href="#portfolioPage" class="inline-block list-none mx-[1vw] px-[1vw] py-[0.5vw] box-border rounded-[30px] transition-colors duration-300 hover:bg-blue-500 hover:text-white cursor-pointer">Portfolio</a></li>
                 <li><a href="#messagePage" class="inline-block list-none mx-[1vw] px-[1vw] py-[0.5vw] box-border rounded-[30px] transition-colors duration-300 hover:bg-blue-500 hover:text-white cursor-pointer">Message Us</a></li>
             </ul>
         </div>
@@ -22,16 +22,32 @@
     <main>
         <!--Home Page-->
         <section id="homePage" class="my-[1vw] mx-auto p-[1vw] w-[50vw] h-[5vw] rounded-[20px] bg-white box-border flex justify-center items-center">
-            <h2 class="flex justify-center items-center text-[2vw]">Welcome to Bryan's Portofolio, <span id="user-greeting" class="ml-2"> User</span></h2>
+            <h1 class="text-[2vw]">Welcome to Bryan's Portofolio, <span id="user-greeting"> User</span></h1>
         </section>
-        <section id="profilePage" class="bg-white h-[10vw] w-[full] bannerLogo"></section>
+        <section class="bg-white inline-block h-[10vw] bannerLogo"></section>
         <!--Profile Page-->
-        <section id="portofolioPage" class="my-[1vw] mx-auto p-[1vw] w-[90vw] h-[90vw] rounded-[20px] bg-white box-border flex justify-center items-center"></section>
+        <section id="profilePage" class="my-[5px] mx-auto p-[1vw] box-border inline-block w-[90vw] rounded-[20px] bg-white box-border flex justify-start items-start">
+            <div class="flex flex-col">
+                <h2 class="text-[2.5vw]">My Portfolio</h2>
+                <h3 class="text-[2vw] mt-[10px]">About the Company</h3>
+                <p class="text-[1vw] mt-[10px] font-normal">At Bryan Web Studio, we specialize in crafting beautiful, responsive, and user-friendly websites tailored to meet your business goals. Whether you're a startup looking for a digital identity or a growing brand in need of a refresh, our design-driven approach ensures your website stands out and performs.
+                    <br><br>With a passionate team of designers and developers, we combine creativity with modern technology to deliver fast, functional, and aesthetically pleasing digital experiences.
+                </p>
+                <h3 class="text-[2vw] mt-[10px]">Vision</h3>
+                <p class="text-[1vw] mt-[10px] font-normal">To become a trusted web design partner for businesses of all sizes, helping them thrive in the digital world through impactful design and smart development.</p>
+                <h3 class="text-[2vw] mt-[10px]">Mission</h3>
+                <ul class="text-[1vw] mt-[10px] font-normal list-disc list-inside">
+                    <li>To design intuitive, engaging, and responsive websites that represent our clients' brands effectively.</li>
+                    <li>To provide reliable and scalable web solutions using the latest technologies and best practices.</li>
+                    <li>To build lasting partnerships through excellent communication, transparency, and ongoing support.</li>
+                </ul>
+            </div>
+        </section>
         <!--Portofolio Page-->
+        <section id="portfolioPage" class="my-[1vw] mx-auto p-[1vw] w-[90vw] h-[90vw] rounded-[20px] bg-white box-border flex justify-center items-center"></section>
+        </section>
         <section id="messagePage" class="my-[1vw] mx-auto p-[1vw] w-[90vw] h-[90vw] rounded-[20px] bg-white box-border flex justify-center items-center"></section>
         <!--Message Us Page-->
-        <section class="my-[1vw] mx-auto p-[1vw] w-[90vw] h-[90vw] rounded-[20px] bg-white box-border flex justify-center items-center"></section>
-        </section>
     </main>
 
     <script src="js/script.js"></script>
